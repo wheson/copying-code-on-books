@@ -10,7 +10,13 @@ def fizz_buzz(n)
   end
 end
 
-puts fizz_buzz(1)
-puts fizz_buzz(3)
-puts fizz_buzz(5)
-puts fizz_buzz(15)
+def main
+  puts fizz_buzz(1)
+  puts fizz_buzz(3)
+  puts fizz_buzz(5)
+  puts fizz_buzz(15)
+end
+
+if __FILE__ == $0
+  main
+end
